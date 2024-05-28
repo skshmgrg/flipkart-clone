@@ -1,0 +1,20 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.btn{
+    padding: 5px 7px;
+    box-sizing: border-box;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: blue;
+}
